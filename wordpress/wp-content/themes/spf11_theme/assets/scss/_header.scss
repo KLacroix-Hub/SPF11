@@ -1,0 +1,130 @@
+.site-header{
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    margin: 0 100px; margin-bottom: 50px;
+
+    @media (max-width:600px){
+        margin: 0 30px;
+        flex-direction: row; 
+        position: relative;
+    }
+
+    
+    .container-menu__mobile-open{
+        display: none;
+
+        @media (max-width:600px){
+            display: flex; flex-direction: row;
+            justify-content: space-between;
+            position: absolute;
+            left:-100vw; top: 0;
+            width: 70vw;
+            height: 100vh;
+            background: #4A5899;
+            z-index: 2;
+            padding: 40px;
+        }
+
+        .mobile-menu{
+            height: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .menu-item{
+                a{
+                    @extend %fontRegular;
+                    font-size: 18px;
+                    color: #fff;
+                }
+            }
+            .current-menu-item{
+                a{
+                    @extend %fontBold;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        &__shopping{
+            display: flex; flex-direction: column;
+
+            &-account{
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .container-menu__mobile{
+        display: none;
+
+        @media (max-width: 600px){
+            display: block;
+            position: absolute; left: 0;
+        }
+
+        &-burger{
+            width: 60%;
+        }
+    }
+
+    &__logo{
+        width: 7%;
+        @media (max-width: 600px){
+            width: 30%;
+        }
+
+        &-img{
+
+            width: 100%; margin-bottom: 30px;
+            margin-top: 30px;
+        }
+    }
+
+    .container-menu{
+        display: flex; flex-direction: row;
+        width: 100%; justify-content: center;
+        align-items: center; position: relative;
+
+        @media (max-width: 600px){
+            display: none;
+        }
+
+        &__shopping{
+            position: absolute; right: 0;
+
+            &-cart{
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .menu-menu-1-container{
+        
+        .menu{
+            display: flex; flex-direction: row;
+            justify-content: space-evenly; width: 40vw;
+
+            &-item{
+
+                a{
+                    @extend %fontRegular;
+                    text-decoration: none; color: #000;
+                    font-size: 18px;
+
+                    &:hover{
+                        color: #92374D;
+                        @extend %fontBold;
+                    }
+                }
+            }
+
+            .current-menu-item{
+                a{
+                    color: #92374D; text-decoration: underline;
+                    @extend %fontBold;
+                }
+            } 
+        }
+    }
+}

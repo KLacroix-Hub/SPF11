@@ -1,0 +1,93 @@
+.container-main{
+
+    .container__hero-banner{
+        width: 100vw;
+        height: 200px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &__noimg{
+            background: black;
+            width: 100vw;
+            height: 200px;
+        }
+    }
+
+    .container-category{
+        &__title{
+
+        }
+        &__link{
+
+        }
+        &__products{
+
+            .products{
+                
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 250px);
+                column-gap: 20px; row-gap: 20px;
+                overflow: hidden;
+
+                &::before{
+                    display: none;
+                }
+
+                .first{
+                    grid-column: span 1;
+                    grid-row: 1 / span 2;
+                    // background: grey;
+                    width: 100%; height: 100%;
+                }
+
+                :nth-child(2){
+                    grid-column: span 1;
+                    grid-row: span 1;
+                    // background: grey;
+                    width: 100%; height: 100%;
+                }    
+
+                :nth-child(3){
+                    grid-column: span 1;
+                    grid-row: span 2;
+                    // background: grey;
+                    width: 100%; height: 100%;
+                }    
+                
+                .last{
+                    grid-column: 2 / span 1;
+                    grid-row: 2 /span 1;
+                    // background: grey;
+                    width: 100%; height: 100%;
+                }
+
+                .product-category{
+                    border-radius: 10px;
+                    overflow: hidden;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    a{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        img{
+                            height:fit-content;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
