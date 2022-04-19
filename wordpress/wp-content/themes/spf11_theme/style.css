@@ -1,0 +1,21 @@
+/*!
+Theme Name: SPF11 Theme
+Author: Kévin Lacroix
+Author URI: https://github.com/KLacroix-Hub
+Description: Theme spf11...art
+Version: 1.0.0
+*/
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+	position: absolute !important;
+	word-wrap: normal !important;
+}

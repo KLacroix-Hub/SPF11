@@ -1,0 +1,4 @@
+2022-04-18T01:01:20+00:00 CRITICAL syntax error, unexpected 'downloads' (T_STRING), expecting ')' dans /var/www/html/wp-content/themes/spf11_theme/functions.php à la ligne 73
+
+2022-04-18T01:01:25+00:00 CRITICAL syntax error, unexpected 'downloads' (T_STRING), expecting ')' dans /var/www/html/wp-content/themes/spf11_theme/functions.php à la ligne 73
+
