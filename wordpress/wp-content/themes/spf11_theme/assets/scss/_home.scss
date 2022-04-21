@@ -2,7 +2,7 @@
 
     .container__hero-banner{
         width: 100vw;
-        height: 200px;
+        height: 300px;
         overflow: hidden;
         display: flex;
         flex-direction: column;
@@ -120,7 +120,6 @@
                             width: auto !important;
                             margin: 0 !important;
                             max-width: 500% !important;
-
                             }
 
                         h2{
@@ -163,6 +162,12 @@
                     grid-row: span 2;
                     // background: grey;
                     width: 100%; height: 100%;
+                    a{
+                        h2{
+                            top: 116vh !important;
+                            height: 5% !important;
+                        }
+                    }
                 }    
                 
                 .last{
@@ -170,6 +175,8 @@
                     grid-row: 2 /span 1;
                     // background: grey;
                     width: 100%; height: 100%;
+
+                    
                 }
 
                 .product-category{
@@ -232,4 +239,89 @@
             }
         }
     }
+
+    .container-lastproduct{
+        margin: 0 100px;
+        position: relative;
+
+
+        &__title{
+            @extend %fontBold;
+            color: #8C5383;
+            text-transform: uppercase;
+            font-size: 28px;
+            margin: 50px 0; 
+            text-align: center;
+        }
+
+        &__link{
+            position: absolute; 
+            right: 0; top: 13px;
+            @extend %fontRegular;
+            color: #C1B2AB;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+
+        &__products{
+            .product{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                a{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    img{
+                        border-radius: 10px;
+                        position: relative;
+
+                        &::before{
+                            content: "";
+                            background: rgba($color: #C1B2AB, $alpha: 0.4);
+                            width: 100%; height: 100%;
+                            position: absolute; top: 0; left: 0;
+                            z-index: 2;
+                        }
+                    }
+
+                    h2{
+                        @extend %fontBold;
+                        font-size: 22px !important;
+                        color: #4A5899;
+                    }
+
+                    .price{
+                        @extend %fontBlack;
+                        font-size: 20px !important;
+                        color: #636363 !important;
+                    }
+                }
+
+                .add_to_cart_button{
+                    background: #4A5899;
+                    color: #fff;width: 50%;
+                    @extend %fontRegular;
+                    align-self: center;
+                }
+            }
+        }
+
+    }
+        .container-insta{
+            margin: 0 100px;
+            h1{
+               
+                    @extend %fontBold;
+                    color: #8C5383;
+                    text-transform: uppercase;
+                    font-size: 28px;
+                    margin: 50px 0; 
+                    text-align: center;
+              
+            }
+        }
 }

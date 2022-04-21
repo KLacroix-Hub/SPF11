@@ -162,19 +162,24 @@ body {
   text-decoration: underline;
 }
 
-.container-main .container-category__link, .container-main .container__hero-banner__center-link, .site-header .container-menu__mobile-open .mobile-menu .menu-item a, .site-header .menu-menu-1-container .menu-item a {
+.container-main .container-lastproduct__products .product .add_to_cart_button, .container-main .container-lastproduct__link, .container-main .container-category__link, .container-main .container__hero-banner__center-link, .site-header .container-menu__mobile-open .mobile-menu .menu-item a, .site-header .menu-menu-1-container .menu-item a {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
-.container-main .container-category__products .products .product-category a h2, .container-main .container-category__products .products .first a h2, .container-main .container-category__title, .container-main .container__hero-banner__center-notxt, .container-main .container__hero-banner__center-txt, .site-header .container-menu__mobile-open .mobile-menu .current-menu-item a, .site-header .menu-menu-1-container .menu-item a:hover, .site-header .menu-menu-1-container .menu .current-menu-item a {
+.container-main .container-insta h1, .container-main .container-lastproduct__products .product a h2, .container-main .container-lastproduct__title, .container-main .container-category__products .products .product-category a h2, .container-main .container-category__products .products .first a h2, .container-main .container-category__title, .container-main .container__hero-banner__center-notxt, .container-main .container__hero-banner__center-txt, .site-header .container-menu__mobile-open .mobile-menu .current-menu-item a, .site-header .menu-menu-1-container .menu-item a:hover, .site-header .menu-menu-1-container .menu .current-menu-item a {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
+.container-main .container-lastproduct__products .product a .price {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
 .container-main .container__hero-banner {
   width: 100vw;
-  height: 200px;
+  height: 300px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -315,6 +320,10 @@ body {
   width: 100%;
   height: 100%;
 }
+.container-main .container-category__products .products :nth-child(3) a h2 {
+  top: 116vh !important;
+  height: 5% !important;
+}
 .container-main .container-category__products .products .last {
   grid-column: 2/span 1;
   grid-row: 2/span 1;
@@ -371,4 +380,80 @@ body {
 }
 .container-main .container-category__products .products .product-category a h2 mark {
   display: none;
+}
+.container-main .container-lastproduct {
+  margin: 0 100px;
+  position: relative;
+}
+.container-main .container-lastproduct__title {
+  color: #8C5383;
+  text-transform: uppercase;
+  font-size: 28px;
+  margin: 50px 0;
+  text-align: center;
+}
+.container-main .container-lastproduct__link {
+  position: absolute;
+  right: 0;
+  top: 13px;
+  color: #C1B2AB;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.container-main .container-lastproduct__products .product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-main .container-lastproduct__products .product a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-main .container-lastproduct__products .product a img {
+  border-radius: 10px;
+  position: relative;
+}
+.container-main .container-lastproduct__products .product a img::before {
+  content: "";
+  background: rgba(193, 178, 171, 0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.container-main .container-lastproduct__products .product a h2 {
+  font-size: 22px !important;
+  color: #4A5899;
+}
+.container-main .container-lastproduct__products .product a .price {
+  font-size: 20px !important;
+  color: #636363 !important;
+}
+.container-main .container-lastproduct__products .product .add_to_cart_button {
+  background: #4A5899;
+  color: #fff;
+  width: 50%;
+  align-self: center;
+}
+.container-main .container-insta {
+  margin: 0 100px;
+}
+.container-main .container-insta h1 {
+  color: #8C5383;
+  text-transform: uppercase;
+  font-size: 28px;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.site-footer {
+  background-color: #4A5899;
+  padding: 30px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

@@ -30,13 +30,24 @@ get_header();?>
         
         <div class="container-category">
             <h1 class="container-category__title">Nos catégories</h1>
-            <a href="" class="container-category__link">Voir toutes les catégories</a>
+            <a href="/boutique" class="container-category__link">Voir toutes les catégories</a>
             <div class="container-category__products">
                 <?php echo do_shortcode('[product_categories limit="4" orderby="name" order="ASC]'); ?>
             </div>
         </div>
 
+        <div class="container-lastproduct">
+        <h1 class="container-lastproduct__title">Nos derniers produits</h1>
+            <a href="/boutique" class="container-lastproduct__link">Voir tous les produits</a>
+            <div class="container-lastproduct__products">
+                <?php echo do_shortcode('[products limit="3" orderby="date"]'); ?>
+            </div>
+        </div>
 
+        <div class="container-insta">
+            <h1>Suivez-nous sur Instagram</h1>
+            <?php echo do_shortcode('[instagram-feed]'); ?>
+        </div>
 	    <?php endwhile;
 
         endif; ?>
