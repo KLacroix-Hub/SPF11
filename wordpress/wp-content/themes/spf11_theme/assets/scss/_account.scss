@@ -1,0 +1,89 @@
+.site-account{
+    margin: 0 100px;
+
+    &__header{
+        margin: 50px 0;
+        h1{
+            @extend %fontBold;
+            color: #92374D;
+            font-size: 35px;
+            text-transform: uppercase;
+        }
+    }
+
+    .woocommerce{
+        display: grid; grid-template-columns: repeat(4, 1fr);
+        gap: 50px;
+
+        &::before{
+            display: none !important;
+        }
+
+        &::after{
+            display: none;
+        }
+
+        &-MyAccount-navigation{
+            width: 100% !important;
+            border: 2px solid #4A5899;
+            border-radius: 10px;
+
+            ul{
+                display: flex; flex-direction: column;
+                justify-content: center; align-items: center;
+                grid-column: span 1;
+                padding: 20px 20px;
+
+                .woocommerce-MyAccount-navigation-link--customer-logout{
+                    &::after{
+                        display: none;
+                    }
+                }
+
+                .is-active{
+                    a{
+                        @extend %fontBold;
+                    }
+                }
+
+                li{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    &::after{
+                        content: "";
+                        border: 1px solid #4A5899;
+                        width: 250px;
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+                    }
+
+                    a{
+                        @extend %fontRegular;
+                        font-size: 20px;
+                        color: #4A5899;
+                        text-decoration: none;
+
+                    }
+                }
+                
+            }
+        }
+
+        &-MyAccount-content{
+            grid-column: span 3;
+            width: 100% !important;
+            
+                div{
+                    
+                    p{
+                        @extend %fontBold;
+                        font-size: 35px;
+                        color: #4A5899;
+
+                    }
+                }
+        }
+    }
+}

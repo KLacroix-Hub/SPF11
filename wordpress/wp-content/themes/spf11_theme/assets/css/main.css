@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -162,17 +163,17 @@ body {
   text-decoration: underline;
 }
 
-.site-footer .container-contact__list a, .site-footer .container-mentions__list a, .container-main .container-lastproduct__products .product .add_to_cart_button, .container-main .container-lastproduct__link, .container-main .container-category__link, .container-main .container__hero-banner__center-link, .site-header .container-menu__mobile-open .mobile-menu .menu-item a, .site-header .menu-menu-1-container .menu-item a {
+.site-account .woocommerce-MyAccount-navigation ul li a, #post-0 div div .products .product .add_to_cart_button, .site-footer .container-contact__list a, .site-footer .container-mentions__list a, .container-main .container-lastproduct__products .product .add_to_cart_button, .container-main .container-lastproduct__link, .container-main .container-category__link, .container-main .container__hero-banner__center-link, .site-header .container-menu__mobile-open .mobile-menu .menu-item a, .site-header .menu-menu-1-container .menu-item a {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
-.container-main .container-insta h1, .container-main .container-lastproduct__products .product a h2, .container-main .container-lastproduct__title, .container-main .container-category__products .products .product-category a h2, .container-main .container-category__products .products .first a h2, .container-main .container-category__title, .container-main .container__hero-banner__center-notxt, .container-main .container__hero-banner__center-txt, .site-header .container-menu__mobile-open .mobile-menu .current-menu-item a, .site-header .menu-menu-1-container .menu-item a:hover, .site-header .menu-menu-1-container .menu .current-menu-item a {
+.site-account .woocommerce-MyAccount-content div p, .site-account .woocommerce-MyAccount-navigation ul .is-active a, .site-account__header h1, #post-0 div div .products .product a h2, #post-0 header, #post-8 .entry-content div ul li a h2, #post-8 header::before, .container-main .container-insta h1, .container-main .container-lastproduct__products .product a h2, .container-main .container-lastproduct__title, .container-main .container-category__products .products .product-category a h2, .container-main .container-category__products .products .first a h2, .container-main .container-category__title, .container-main .container__hero-banner__center-notxt, .container-main .container__hero-banner__center-txt, .site-header .container-menu__mobile-open .mobile-menu .current-menu-item a, .site-header .menu-menu-1-container .menu-item a:hover, .site-header .menu-menu-1-container .menu .current-menu-item a {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
-.site-footer .container-contact h2, .site-footer .container-mentions h2, .site-footer .container-paiements h2, .container-main .container-lastproduct__products .product a .price {
+#post-0 div div .products .product a .price, .site-footer .container-contact h2, .site-footer .container-mentions h2, .site-footer .container-paiements h2, .container-main .container-lastproduct__products .product a .price {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
 }
@@ -232,6 +233,7 @@ body {
   align-self: flex-start;
   text-decoration: none;
   font-size: 16px;
+  padding: 20px;
 }
 .container-main .container-category {
   display: flex;
@@ -292,7 +294,6 @@ body {
   font-size: 20px !important;
   text-align: center;
   position: absolute;
-  top: 116vh !important;
   background-color: #559CAD;
   height: 5% !important;
   padding: 20px;
@@ -314,6 +315,9 @@ body {
   width: 100%;
   height: 100%;
 }
+.container-main .container-category__products .products :nth-child(2) a h2 {
+  top: 17vh !important;
+}
 .container-main .container-category__products .products :nth-child(3) {
   grid-column: span 1;
   grid-row: span 2;
@@ -321,7 +325,6 @@ body {
   height: 100%;
 }
 .container-main .container-category__products .products :nth-child(3) a h2 {
-  top: 116vh !important;
   height: 5% !important;
 }
 .container-main .container-category__products .products .last {
@@ -329,6 +332,9 @@ body {
   grid-row: 2/span 1;
   width: 100%;
   height: 100%;
+}
+.container-main .container-category__products .products .last a h2 {
+  top: 17vh !important;
 }
 .container-main .container-category__products .products .product-category {
   border-radius: 10px;
@@ -364,11 +370,11 @@ body {
   font-size: 20px !important;
   text-align: center;
   position: absolute;
-  top: 48vh;
+  top: 41.5vh;
   background-color: #559CAD;
-  width: 65%;
-  height: 10%;
-  padding: 20px;
+  width: 65% !important;
+  height: 5% !important;
+  padding: 20px !important;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -404,6 +410,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 420px;
+  justify-content: space-around;
 }
 .container-main .container-lastproduct__products .product a {
   display: flex;
@@ -414,6 +422,10 @@ body {
 .container-main .container-lastproduct__products .product a img {
   border-radius: 10px;
   position: relative;
+  width: 500px !important;
+  height: 300px !important;
+  object-fit: cover;
+  object-position: center;
 }
 .container-main .container-lastproduct__products .product a img::before {
   content: "";
@@ -428,6 +440,7 @@ body {
 .container-main .container-lastproduct__products .product a h2 {
   font-size: 22px !important;
   color: #4A5899;
+  text-align: center;
 }
 .container-main .container-lastproduct__products .product a .price {
   font-size: 20px !important;
@@ -524,4 +537,197 @@ body {
 }
 .site-footer .container-contact__list a:nth-child(2n) {
   margin: 10px 0;
+}
+
+/*LES CATEGORIES / PAGE ENTREE BOUTIQUE*/
+#post-8 header {
+  margin: 0 100px;
+  margin-bottom: 50px;
+}
+#post-8 header::before {
+  content: "Les catégories";
+  font-size: 35px;
+  color: #8C5383;
+}
+#post-8 header h1 {
+  display: none;
+}
+#post-8 .entry-content div ul {
+  margin: 0 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+#post-8 .entry-content div ul::before {
+  display: none;
+}
+#post-8 .entry-content div ul li {
+  width: 100%;
+  height: 300px;
+}
+#post-8 .entry-content div ul li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  margin: 0;
+  height: 100%;
+}
+#post-8 .entry-content div ul li a img {
+  object-fit: cover;
+  object-position: center;
+}
+#post-8 .entry-content div ul li a h2 {
+  position: absolute;
+  bottom: 20px;
+  font-size: 20px;
+  background-color: #559CAD;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+  text-transform: lowercase;
+}
+#post-8 .entry-content div ul li a h2::before {
+  content: "Les";
+  text-transform: initial;
+}
+#post-8 .entry-content div ul li a h2 mark {
+  display: none;
+}
+
+/*LES CATEGORIES / PAGE ENTREE BOUTIQUE*/
+#post-0 {
+  margin: 0 100px;
+}
+#post-0 header {
+  display: flex;
+  flex-direction: row;
+  font-size: 35px;
+  color: #8C5383;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+#post-0 header::before {
+  content: "Les";
+  margin-right: 5px;
+  text-transform: initial;
+}
+#post-0 header h1 a {
+  text-decoration: none;
+  color: #8C5383;
+}
+#post-0 div div p {
+  display: none;
+}
+#post-0 div div .products .product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+}
+#post-0 div div .products .product a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#post-0 div div .products .product a img {
+  border-radius: 10px;
+  position: relative;
+  width: 500px !important;
+  height: 500px !important;
+  object-fit: cover;
+  object-position: center;
+}
+#post-0 div div .products .product a img::before {
+  content: "";
+  background: rgba(193, 178, 171, 0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+#post-0 div div .products .product a h2 {
+  font-size: 22px !important;
+  color: #4A5899;
+  text-align: center;
+}
+#post-0 div div .products .product a .price {
+  font-size: 20px !important;
+  color: #636363 !important;
+}
+#post-0 div div .products .product .add_to_cart_button {
+  background: #4A5899;
+  color: #fff;
+  width: 50%;
+  align-self: center;
+}
+
+.site-account {
+  margin: 0 100px;
+}
+.site-account__header {
+  margin: 50px 0;
+}
+.site-account__header h1 {
+  color: #92374D;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.site-account .woocommerce {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+.site-account .woocommerce::before {
+  display: none !important;
+}
+.site-account .woocommerce::after {
+  display: none;
+}
+.site-account .woocommerce-MyAccount-navigation {
+  width: 100% !important;
+  border: 2px solid #4A5899;
+  border-radius: 10px;
+}
+.site-account .woocommerce-MyAccount-navigation ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-column: span 1;
+  padding: 20px 20px;
+}
+.site-account .woocommerce-MyAccount-navigation ul .woocommerce-MyAccount-navigation-link--customer-logout::after {
+  display: none;
+}
+.site-account .woocommerce-MyAccount-navigation ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.site-account .woocommerce-MyAccount-navigation ul li::after {
+  content: "";
+  border: 1px solid #4A5899;
+  width: 250px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.site-account .woocommerce-MyAccount-navigation ul li a {
+  font-size: 20px;
+  color: #4A5899;
+  text-decoration: none;
+}
+.site-account .woocommerce-MyAccount-content {
+  grid-column: span 3;
+  width: 100% !important;
+}
+.site-account .woocommerce-MyAccount-content div p {
+  font-size: 35px;
+  color: #4A5899;
 }
