@@ -214,3 +214,21 @@
         }
     }
 }
+
+.cart-empty{
+    @extend %fontRegular;
+    color: #4A5899;
+    background: none;
+    border-top-color: #92374D !important;
+    &::before{
+        color: #92374D !important;
+    }
+}
+.return-to-shop{
+    margin-bottom: 30px;
+    a{
+        background: #92374D !important;
+        @extend %fontRegular;
+        color: #fff !important;
+    }
+}
