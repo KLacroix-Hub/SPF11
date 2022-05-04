@@ -163,12 +163,12 @@ body {
   text-decoration: underline;
 }
 
-.site-account .woocommerce-MyAccount-content .container-bottom, .site-account .woocommerce-MyAccount-content .container-top__logout, .site-account .woocommerce-MyAccount-navigation ul li a, #post-0 div div .products .product .add_to_cart_button, .site-footer .container-contact__list a, .site-footer .container-mentions__list a, .container-main .container-lastproduct__products .product .add_to_cart_button, .container-main .container-lastproduct__link, .container-main .container-category__link, .container-main .container__hero-banner__center-link, .site-header .container-menu__mobile-open .mobile-menu .menu-item a, .site-header .menu-menu-1-container .menu-item a {
+.site-account .woocommerce .account-orders-table tbody tr td, .site-account .woocommerce-MyAccount-content .woocommerce-EditAccountForm p input, .site-account .woocommerce-MyAccount-content .woocommerce-EditAccountForm p button, .site-account .woocommerce-MyAccount-content .woocommerce-Addresses .woocommerce-Address address, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr td, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr th, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tbody tr td, .site-account .woocommerce-MyAccount-content p, .site-account .woocommerce-MyAccount-content .container-bottom, .site-account .woocommerce-MyAccount-content .container-top__logout, .site-account .woocommerce-MyAccount-navigation ul li a, .cart-collaterals .cart_totals table tbody tr th, .woocommerce-cart-form table tbody tr .product-name, .woocommerce-cart main main article div div .woocommerce-notices-wrapper .woocommerce-error, .woocommerce-cart main main article div div .woocommerce-notices-wrapper .woocommerce-message, #post-0 div div .products .product .add_to_cart_button, .site-footer .container-contact__list a, .site-footer .container-mentions__list a, .container-main .container-lastproduct__products .product .add_to_cart_button, .container-main .container-lastproduct__link, .container-main .container-category__link, .container-main .container__hero-banner__center-link, .site-header .container-menu__mobile-open .mobile-menu .menu-item a, .site-header .menu-menu-1-container .menu-item a {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
-.site-account .woocommerce-MyAccount-content .container-bottom a, .site-account .woocommerce-MyAccount-content .container-top__logout a, .site-account .woocommerce-MyAccount-content .container-top__hello, .site-account .woocommerce-MyAccount-navigation ul .is-active a, .site-account__header h1, #post-0 div div .products .product a h2, #post-0 header, #post-8 .entry-content div ul li a h2, #post-8 header::before, .container-main .container-insta h1, .container-main .container-lastproduct__products .product a h2, .container-main .container-lastproduct__title, .container-main .container-category__products .products .product-category a h2, .container-main .container-category__products .products .first a h2, .container-main .container-category__title, .container-main .container__hero-banner__center-notxt, .container-main .container__hero-banner__center-txt, .site-header .container-menu__mobile-open .mobile-menu .current-menu-item a, .site-header .menu-menu-1-container .menu-item a:hover, .site-header .menu-menu-1-container .menu .current-menu-item a {
+.site-account .woocommerce .account-orders-table tbody tr td a, .site-account .woocommerce .account-orders-table thead, .site-account .woocommerce-MyAccount-content .woocommerce-EditAccountForm p, .site-account .woocommerce-MyAccount-content .woocommerce-Addresses .woocommerce-Address header, .site-account .woocommerce-MyAccount-content .woocommerce-customer-details address, .site-account .woocommerce-MyAccount-content .woocommerce-customer-details h2, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr td a, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr th a, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tbody tr td a, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details thead, .site-account .woocommerce-MyAccount-content .woocommerce-order-details h2, .site-account .woocommerce-MyAccount-content .container-bottom a, .site-account .woocommerce-MyAccount-content .container-top__logout a, .site-account .woocommerce-MyAccount-content .container-top__hello, .site-account .woocommerce-MyAccount-navigation ul .is-active a, .site-account__header h1, .cart-collaterals .cart_totals .wc-proceed-to-checkout a, .cart-collaterals .cart_totals table tbody tr td, .cart-collaterals .cart_totals h2, .actions .button-maj, .coupon input, .woocommerce-cart-form table tbody tr .product-subtotal span, .woocommerce-cart-form table tbody tr .product-quantity .quantity input, .woocommerce-cart-form table tbody tr .product-price span, .woocommerce-cart-form table thead tr, .woocommerce-cart main main article header h1, #post-0 div div .products .product a h2, #post-0 header, #post-8 .entry-content div ul li a h2, #post-8 header::before, .container-main .container-insta h1, .container-main .container-lastproduct__products .product a h2, .container-main .container-lastproduct__title, .container-main .container-category__products .products .product-category a h2, .container-main .container-category__products .products .first a h2, .container-main .container-category__title, .container-main .container__hero-banner__center-notxt, .container-main .container__hero-banner__center-txt, .site-header .container-menu__mobile-open .mobile-menu .current-menu-item a, .site-header .menu-menu-1-container .menu-item a:hover, .site-header .menu-menu-1-container .menu .current-menu-item a {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
@@ -668,6 +668,166 @@ body {
   align-self: center;
 }
 
+.woocommerce-cart main main article {
+  margin: 0 100px;
+}
+.woocommerce-cart main main article header h1 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.woocommerce-cart main main article header h1 a {
+  color: #92374D;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.woocommerce-cart main main article div div .woocommerce-notices-wrapper .woocommerce-message {
+  background: none;
+  border-top-color: #559CAD;
+  color: #559CAD;
+  font-size: 15px;
+}
+.woocommerce-cart main main article div div .woocommerce-notices-wrapper .woocommerce-message::before {
+  color: #559CAD;
+}
+.woocommerce-cart main main article div div .woocommerce-notices-wrapper .woocommerce-error {
+  background: none;
+  border-top-color: #92374D;
+  color: #92374D;
+  font-size: 15px;
+}
+
+.woocommerce-cart-form {
+  border: 2px solid #4A5899;
+  border-radius: 10px;
+}
+.woocommerce-cart-form table {
+  border: none !important;
+  overflow: hidden;
+  margin: 0 !important;
+}
+.woocommerce-cart-form table thead {
+  background: #4A5899;
+}
+.woocommerce-cart-form table thead tr {
+  color: #fff;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.woocommerce-cart-form table tbody tr .product-remove a {
+  color: #92374D !important;
+}
+.woocommerce-cart-form table tbody tr .product-thumbnail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.woocommerce-cart-form table tbody tr .product-thumbnail a {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.woocommerce-cart-form table tbody tr .product-thumbnail a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.woocommerce-cart-form table tbody tr .product-name {
+  font-size: 15px;
+  color: #4A5899;
+}
+.woocommerce-cart-form table tbody tr .product-name a {
+  text-decoration: underline;
+  color: #4A5899;
+}
+.woocommerce-cart-form table tbody tr .product-price span {
+  color: #4A5899;
+  font-size: 15px;
+}
+.woocommerce-cart-form table tbody tr .product-quantity .quantity input {
+  color: #4A5899;
+  font-size: 15px;
+  border: 1px solid #4A5899;
+  border-radius: 5px;
+}
+.woocommerce-cart-form table tbody tr .product-subtotal span {
+  color: #4A5899;
+  font-size: 18px;
+}
+
+.coupon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.coupon input {
+  border: 2px solid #559CAD !important;
+  border-radius: 10px;
+  color: #559CAD;
+  font-size: 15px;
+  width: 100px !important;
+  height: 40px !important;
+}
+.coupon input::placeholder {
+  color: #559CAD;
+}
+.coupon .button {
+  background: #559CAD !important;
+  color: #fff !important;
+  border-radius: 10px !important;
+  height: 40px;
+}
+
+.actions .button-maj {
+  background-color: #4A5899 !important;
+  color: #fff !important;
+  border-radius: 10px !important;
+  height: 40px;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.cart-collaterals {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.cart-collaterals .cart_totals {
+  border: 2px solid #92374D !important;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.cart-collaterals .cart_totals h2 {
+  padding: 10px;
+  color: #92374D;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.cart-collaterals .cart_totals table {
+  margin: 0 !important;
+}
+.cart-collaterals .cart_totals table tbody tr th {
+  color: #92374D;
+  font-size: 18px;
+}
+.cart-collaterals .cart_totals table tbody tr td {
+  color: #92374D;
+  font-size: 18px;
+}
+.cart-collaterals .cart_totals .wc-proceed-to-checkout {
+  padding: 0 !important;
+}
+.cart-collaterals .cart_totals .wc-proceed-to-checkout a {
+  color: #fff;
+  background: #92374D !important;
+  font-size: 20px;
+  margin: 0 !important;
+}
+
 .site-account {
   margin: 0 100px;
 }
@@ -751,4 +911,116 @@ body {
 .site-account .woocommerce-MyAccount-content .container-bottom a {
   text-decoration: underline;
   color: #4A5899;
+}
+.site-account .woocommerce-MyAccount-content p {
+  font-size: 15px;
+  color: #4A5899;
+  margin-bottom: 10px;
+}
+.site-account .woocommerce-MyAccount-content p mark {
+  background: #4A5899;
+  color: #fff;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-order-details h2 {
+  font-size: 25px;
+  color: #4A5899;
+  margin-bottom: 10px;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details {
+  border: 2px solid #4A5899;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details thead {
+  background: #4A5899;
+  font-size: 15px;
+  color: #fff;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tbody tr td {
+  border-top: 1px solid #4A5899;
+  font-size: 15px;
+  color: #4A5899;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tbody tr td a {
+  color: #4A5899;
+  text-decoration: underline;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr td, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr th {
+  border-top: 1px solid #4A5899;
+  font-size: 15px;
+  color: #4A5899;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr td a, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr th a {
+  color: #4A5899;
+  text-decoration: underline;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-customer-details h2 {
+  font-size: 25px;
+  color: #4A5899;
+  margin-bottom: 10px;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-customer-details address {
+  border: 2px solid #4A5899;
+  font-size: 15px;
+  color: #4A5899;
+  line-height: 30px;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-Addresses {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  border: 2px solid #4A5899;
+  border-radius: 10px;
+  gap: 20px;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-Addresses::before {
+  display: none;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-Addresses::after {
+  display: none;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-Addresses .woocommerce-Address header {
+  background-color: #4A5899;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-Addresses .woocommerce-Address header a {
+  color: #fff;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-Addresses .woocommerce-Address address {
+  padding: 10px;
+  font-size: 15px;
+  color: #4A5899;
+  line-height: 25px;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-EditAccountForm p button {
+  background-color: #4A5899;
+  color: #fff;
+}
+.site-account .woocommerce-MyAccount-content .woocommerce-EditAccountForm p input {
+  font-size: 15px;
+  color: #4A5899;
+  border: 1px solid #4A5899;
+  border-radius: 5px;
+  padding: 5px;
+}
+.site-account .woocommerce .account-orders-table {
+  border: 2px solid #4A5899;
+}
+.site-account .woocommerce .account-orders-table thead {
+  background: #4A5899;
+  font-size: 15px;
+  color: #fff;
+}
+.site-account .woocommerce .account-orders-table tbody tr td {
+  padding: 14px 10px;
+  font-size: 15px;
+  color: #4A5899;
+}
+.site-account .woocommerce .account-orders-table tbody tr td a {
+  color: #4A5899;
+}
+.site-account .woocommerce .account-orders-table tbody tr td .view {
+  background: #4A5899;
+  color: #fff;
 }

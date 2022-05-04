@@ -112,6 +112,176 @@
                         color: #4A5899;
                     }
                 }
+
+                p{
+                    @extend %fontRegular;
+                    font-size: 15px;
+                    color: #4A5899;
+
+                    mark{
+                        background: #4A5899;
+                        color: #fff;
+                    }
+
+                    margin-bottom: 10px;
+                }
+
+                .woocommerce-order-details{
+                    h2{
+                        @extend %fontBold;
+                        font-size: 25px;
+                        color: #4A5899;
+                        margin-bottom: 10px;
+                    }
+                    .woocommerce-table--order-details{
+                        border: 2px solid #4A5899;
+                        thead{
+                            background: #4A5899;
+                            @extend %fontBold;
+                            font-size: 15px;
+                            color: #fff;
+                        }
+                        tbody{
+                            tr{
+                                td{
+                                    border-top:1px solid #4A5899;
+                                    @extend %fontRegular;
+                                    font-size: 15px;
+                                    color: #4A5899;
+
+                                    a{
+                                        @extend %fontBold;
+                                        color: #4A5899;
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                        }
+                        tfoot{
+                            tr{
+                                td,th{
+                                    border-top:1px solid #4A5899;
+                                    @extend %fontRegular;
+                                    font-size: 15px;
+                                    color: #4A5899;
+
+                                    a{
+                                        @extend %fontBold;
+                                        color: #4A5899;
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .woocommerce-customer-details{
+                    h2{
+                        @extend %fontBold;
+                        font-size: 25px;
+                        color: #4A5899;
+                        margin-bottom: 10px;
+                    }
+
+                    address{
+                        border: 2px solid #4A5899;
+                        @extend %fontBold;
+                        font-size: 15px;
+                        color: #4A5899;
+                       line-height: 30px;
+                    }
+                }
+
+                .woocommerce-Addresses{
+
+                    display: flex; flex-direction: row;
+                    padding: 20px;
+                    border: 2px solid #4A5899;
+                    border-radius: 10px;
+                    gap: 20px;
+                    &::before{
+                        display: none;
+                        
+                    }
+                    &::after{
+                        display: none;
+
+                    }
+                    .woocommerce-Address{
+                       header{
+                           background-color: #4A5899;
+                           color: #fff;
+                           @extend %fontBold;
+                           font-size: 15px;
+                           padding: 10px;
+                           border-radius: 5px;
+
+                           a{
+                               color: #fff;
+                           }
+                       }
+                       address{
+                           padding: 10px;
+                           @extend %fontRegular;
+                           font-size: 15px;
+                           color: #4A5899;
+                           line-height: 25px;
+                       }
+                    }
+                }
+
+                .woocommerce-EditAccountForm{
+                    p{
+                        @extend %fontBold;
+
+                        button{
+                            background-color: #4A5899;
+                            color: #fff;
+                            @extend %fontRegular;
+                        }
+                        input{
+                            @extend %fontRegular;
+                            font-size: 15px;
+                            color: #4A5899;
+                            border: 1px solid #4A5899;
+                            border-radius: 5px;
+                            padding: 5px;
+                        }
+                    }
+                }
         }
+
+        .account-orders-table{
+            border: 2px solid #4A5899;
+            thead{
+                background: #4A5899;
+                @extend %fontBold;
+                font-size: 15px;
+                color: #fff;
+            }
+            tbody{
+                tr{
+                    td{
+
+                        padding: 14px 10px;
+                        @extend %fontRegular;
+                        font-size: 15px;
+                        color: #4A5899; 
+
+                        a{
+                            @extend %fontBold;
+                            color: #4A5899;
+                        }
+
+                        .view{
+                            background: #4A5899;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+
+       
     }
 }
