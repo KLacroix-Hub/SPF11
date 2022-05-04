@@ -163,12 +163,12 @@ body {
   text-decoration: underline;
 }
 
-.site-account .woocommerce-MyAccount-navigation ul li a, #post-0 div div .products .product .add_to_cart_button, .site-footer .container-contact__list a, .site-footer .container-mentions__list a, .container-main .container-lastproduct__products .product .add_to_cart_button, .container-main .container-lastproduct__link, .container-main .container-category__link, .container-main .container__hero-banner__center-link, .site-header .container-menu__mobile-open .mobile-menu .menu-item a, .site-header .menu-menu-1-container .menu-item a {
+.site-account .woocommerce-MyAccount-content .container-bottom, .site-account .woocommerce-MyAccount-content .container-top__logout, .site-account .woocommerce-MyAccount-navigation ul li a, #post-0 div div .products .product .add_to_cart_button, .site-footer .container-contact__list a, .site-footer .container-mentions__list a, .container-main .container-lastproduct__products .product .add_to_cart_button, .container-main .container-lastproduct__link, .container-main .container-category__link, .container-main .container__hero-banner__center-link, .site-header .container-menu__mobile-open .mobile-menu .menu-item a, .site-header .menu-menu-1-container .menu-item a {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
-.site-account .woocommerce-MyAccount-content div p, .site-account .woocommerce-MyAccount-navigation ul .is-active a, .site-account__header h1, #post-0 div div .products .product a h2, #post-0 header, #post-8 .entry-content div ul li a h2, #post-8 header::before, .container-main .container-insta h1, .container-main .container-lastproduct__products .product a h2, .container-main .container-lastproduct__title, .container-main .container-category__products .products .product-category a h2, .container-main .container-category__products .products .first a h2, .container-main .container-category__title, .container-main .container__hero-banner__center-notxt, .container-main .container__hero-banner__center-txt, .site-header .container-menu__mobile-open .mobile-menu .current-menu-item a, .site-header .menu-menu-1-container .menu-item a:hover, .site-header .menu-menu-1-container .menu .current-menu-item a {
+.site-account .woocommerce-MyAccount-content .container-bottom a, .site-account .woocommerce-MyAccount-content .container-top__logout a, .site-account .woocommerce-MyAccount-content .container-top__hello, .site-account .woocommerce-MyAccount-navigation ul .is-active a, .site-account__header h1, #post-0 div div .products .product a h2, #post-0 header, #post-8 .entry-content div ul li a h2, #post-8 header::before, .container-main .container-insta h1, .container-main .container-lastproduct__products .product a h2, .container-main .container-lastproduct__title, .container-main .container-category__products .products .product-category a h2, .container-main .container-category__products .products .first a h2, .container-main .container-category__title, .container-main .container__hero-banner__center-notxt, .container-main .container__hero-banner__center-txt, .site-header .container-menu__mobile-open .mobile-menu .current-menu-item a, .site-header .menu-menu-1-container .menu-item a:hover, .site-header .menu-menu-1-container .menu .current-menu-item a {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
@@ -727,7 +727,28 @@ body {
   grid-column: span 3;
   width: 100% !important;
 }
-.site-account .woocommerce-MyAccount-content div p {
-  font-size: 35px;
+.site-account .woocommerce-MyAccount-content .container-top {
+  margin-bottom: 40px;
+}
+.site-account .woocommerce-MyAccount-content .container-top__hello {
+  font-size: 40px;
+  color: #4A5899;
+}
+.site-account .woocommerce-MyAccount-content .container-top__logout {
+  font-size: 20px;
+  color: #4A5899;
+  margin-top: 10px;
+}
+.site-account .woocommerce-MyAccount-content .container-top__logout a {
+  text-decoration: underline;
+  color: #4A5899;
+}
+.site-account .woocommerce-MyAccount-content .container-bottom {
+  font-size: 18px;
+  color: #4A5899;
+  line-height: 25px;
+}
+.site-account .woocommerce-MyAccount-content .container-bottom a {
+  text-decoration: underline;
   color: #4A5899;
 }

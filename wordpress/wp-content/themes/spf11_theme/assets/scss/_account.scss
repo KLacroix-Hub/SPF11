@@ -75,13 +75,41 @@
             grid-column: span 3;
             width: 100% !important;
             
-                div{
+                .container-top{
+
+                    margin-bottom: 40px;
                     
-                    p{
+                    &__hello{
                         @extend %fontBold;
-                        font-size: 35px;
+                        font-size: 40px;
                         color: #4A5899;
 
+                    }
+
+                    &__logout{
+                        @extend %fontRegular;
+                        font-size: 20px;
+                        color: #4A5899;
+                        margin-top: 10px;
+
+                        a{
+                            @extend %fontBold;
+                            text-decoration: underline;
+                            color: #4A5899;
+                        }
+                    }
+                }
+
+                .container-bottom{
+                    @extend %fontRegular;
+                    font-size: 18px;
+                    color: #4A5899;
+                    line-height: 25px;
+
+                    a{
+                        @extend %fontBold;
+                        text-decoration: underline;
+                        color: #4A5899;
                     }
                 }
         }
