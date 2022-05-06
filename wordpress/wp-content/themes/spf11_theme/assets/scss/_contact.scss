@@ -1,0 +1,95 @@
+.container-contact{
+    margin: 0 100px;
+
+    h1{
+        @extend %fontBold;
+        font-size: 35px;
+        margin-bottom: 30px;
+        color: #92374D;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    &__form{
+
+        display: flex; flex-direction: column;
+        border-radius: 10px;
+        border: 2px solid #4A5899;
+        padding: 20px;
+        margin-bottom: 30px;
+
+        div{
+            form{
+                display: grid; grid-template-columns: repeat(2, 1fr);
+                @extend %fontRegular;
+                color: #4A5899;
+
+                p{
+                    @extend %fontBold;
+                    
+                    width: 100%;
+                    margin-bottom: 20px;
+                    
+                    &:nth-child(0n+5){
+                        grid-column: span 2;
+                    }
+                    &:nth-child(0n+6){
+                        grid-column: span 2;
+                        width: 95%;
+                    }
+                    .content-contact{
+                        width: 100%;
+                    }
+
+                    label{
+                        width: 100%;
+
+                        span{
+                            width: 100%;
+                            
+                            input{
+                                margin-top: 5px;
+                                width: 90%;
+                                border: 1px solid #4A5899;
+                                border-radius: 10px;
+                                padding: 5px;
+                                @extend %fontRegular;
+                                color: #4A5899;
+                                font-size: 15px;
+                            }
+
+                            textarea{
+                                margin-top: 5px;
+                                border: 1px solid #4A5899;
+                                border-radius: 10px;
+                                padding: 5px;
+                                @extend %fontRegular;
+                                color: #4A5899;
+                                font-size: 15px;    
+                                width: 95%;
+                            }
+                        }
+                    }
+                }
+
+                
+
+            }
+        }
+    }
+}
+
+.wpcf7-submit{
+    @extend %fontRegular;
+    color: #fff;
+    background-color: #4A5899;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+    box-sizing: none;
+}
+
+.content-contact{
+    width: 100%;
+}

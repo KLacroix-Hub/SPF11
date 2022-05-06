@@ -1,0 +1,58 @@
+.container-about{
+    margin: 0 100px;
+
+    h1{
+        @extend %fontBold;
+        font-size: 35px;
+        margin-bottom: 30px;
+        color: #92374D;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .container-content{
+        display: grid; grid-template-columns: repeat(8, 1fr);
+        gap: 50px; margin-bottom: 30px;
+
+        &__img{
+
+            grid-column: span 3;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            object-fit: cover;
+            object-position: center;
+                
+            &::before{
+                content: "";
+                background: rgba(193, 178, 171, 0.4);
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 0;
+                border-radius: 10px;
+            }
+            img{
+                width: auto;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+
+           
+        }
+
+        &__txt{
+            grid-column: span 5;
+            @extend %fontRegular;
+            color: #4A5899;
+            font-size: 18px;
+            line-height: 25px;
+            letter-spacing: 0.5px;
+        }
+    }
+}
