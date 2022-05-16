@@ -163,7 +163,12 @@ body {
   text-decoration: underline;
 }
 
-.wpcf7-submit, .container-contact__form div form p label span textarea, .container-contact__form div form p label span input, .container-contact__form div form, .container-about .container-content__txt, .woocommerce-customer-details address, .woocommerce-order .woocommerce-order-details table, .woocommerce-order ul, .woocommerce-order p, .woocommerce-NoticeGroup ul, #order_review, .woocommerce-additional-fields div .notes span textarea, .woocommerce-billing-fields__field-wrapper p span, .woocommerce-billing-fields__field-wrapper p input, .woocommerce-checkout main main article div div .checkout_coupon, .woocommerce-checkout main main article div div .woocommerce-form-coupon-toggle div, .site-account .woocommerce .account-orders-table tbody tr td, .site-account .woocommerce-MyAccount-content .woocommerce-EditAccountForm p input, .site-account .woocommerce-MyAccount-content .woocommerce-EditAccountForm p button, .site-account .woocommerce-MyAccount-content .woocommerce-Addresses .woocommerce-Address address, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr td, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr th, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tbody tr td, .site-account .woocommerce-MyAccount-content p, .site-account .woocommerce-MyAccount-content .container-bottom, .site-account .woocommerce-MyAccount-content .container-top__logout, .site-account .woocommerce-MyAccount-navigation ul li a, .return-to-shop a, .cart-empty, .cart-collaterals .cart_totals table tbody tr th, .woocommerce-cart-form table tbody tr .product-name, .woocommerce-cart main main article div div .woocommerce-notices-wrapper .woocommerce-error, .woocommerce-cart main main article div div .woocommerce-notices-wrapper .woocommerce-message, #post-0 div div .products .product .add_to_cart_button, .site-footer .container-contact__list a, .site-footer .container-mentions__list a, .container-main .container-lastproduct__products .product .add_to_cart_button, .container-main .container-lastproduct__link, .container-main .container-category__link, .container-main .container__hero-banner__center-link, .site-header .container-menu__mobile-open .mobile-menu .menu-item a, .site-header .menu-menu-1-container .menu-item a {
+.single-product .product .woocommerce-tabs .tabs, .page-produit article header h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.wpcf7-submit, .container-contact__form div form p label span textarea, .container-contact__form div form p label span input, .container-contact__form div form, .container-about .container-content__txt, .woocommerce-customer-details address, .woocommerce-order .woocommerce-order-details table, .woocommerce-order ul, .woocommerce-order p, .woocommerce-NoticeGroup ul, #order_review, .woocommerce-additional-fields div .notes span textarea, .woocommerce-billing-fields__field-wrapper p span, .woocommerce-billing-fields__field-wrapper p input, .woocommerce-checkout main main article div div .checkout_coupon, .woocommerce-checkout main main article div div .woocommerce-form-coupon-toggle div, .site-account .woocommerce .account-orders-table tbody tr td, .site-account .woocommerce-MyAccount-content .woocommerce-EditAccountForm p input, .site-account .woocommerce-MyAccount-content .woocommerce-EditAccountForm p button, .site-account .woocommerce-MyAccount-content .woocommerce-Addresses .woocommerce-Address address, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr td, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr th, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tbody tr td, .site-account .woocommerce-MyAccount-content p, .site-account .woocommerce-MyAccount-content .container-bottom, .site-account .woocommerce-MyAccount-content .container-top__logout, .site-account .woocommerce-MyAccount-navigation ul li a, .return-to-shop a, .cart-empty, .cart-collaterals .cart_totals table tbody tr th, .woocommerce-cart-form table tbody tr .product-name, .woocommerce-cart main main article div div .woocommerce-notices-wrapper .woocommerce-error, .woocommerce-cart main main article div div .woocommerce-notices-wrapper .woocommerce-message, .comments-area .comment-respond form, .comments-area .comment-respond, .single-product .product .woocommerce-tabs .woocommerce-Tabs-panel, .single-product .product .summary .product_meta, .single-product .product .summary .price, #post-0 div div .products .product .add_to_cart_button, .site-footer .container-contact__list a, .site-footer .container-mentions__list a, .container-main .container-lastproduct__products .product .add_to_cart_button, .container-main .container-lastproduct__link, .container-main .container-category__link, .container-main .container__hero-banner__center-link, .site-header .container-menu__mobile-open .mobile-menu .menu-item a, .site-header .menu-menu-1-container .menu-item a {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
@@ -173,7 +178,7 @@ body {
   font-weight: 500;
 }
 
-.container-contact__form div form p, .container-contact h1, .container-about h1, .woocommerce-customer-details address p, .woocommerce-customer-details h2, .woocommerce-order .woocommerce-order-details table thead tr a, .woocommerce-order .woocommerce-order-details h2, .woocommerce-order ul li strong, #order_review_heading, .woocommerce-additional-fields h3, .woocommerce-billing-fields h3, .woocommerce-checkout main main article div div .checkout_coupon p input, .woocommerce-checkout main main article header h1, .site-account .woocommerce .account-orders-table tbody tr td a, .site-account .woocommerce .account-orders-table thead, .site-account .woocommerce-MyAccount-content .woocommerce-EditAccountForm p, .site-account .woocommerce-MyAccount-content .woocommerce-Addresses .woocommerce-Address header, .site-account .woocommerce-MyAccount-content .woocommerce-customer-details address, .site-account .woocommerce-MyAccount-content .woocommerce-customer-details h2, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr td a, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr th a, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tbody tr td a, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details thead, .site-account .woocommerce-MyAccount-content .woocommerce-order-details h2, .site-account .woocommerce-MyAccount-content .container-bottom a, .site-account .woocommerce-MyAccount-content .container-top__logout a, .site-account .woocommerce-MyAccount-content .container-top__hello, .site-account .woocommerce-MyAccount-navigation ul .is-active a, .site-account__header h1, .cart-collaterals .cart_totals .wc-proceed-to-checkout a, .cart-collaterals .cart_totals table tbody tr td, .cart-collaterals .cart_totals h2, .actions .button-maj, .coupon input, .woocommerce-cart-form table tbody tr .product-subtotal span, .woocommerce-cart-form table tbody tr .product-quantity .quantity input, .woocommerce-cart-form table tbody tr .product-price span, .woocommerce-cart-form table thead tr, .woocommerce-cart main main article header h1, .woocommerce-ordering select, #post-0 div div .products .product a h2, #post-0 header, #post-8 .entry-content div ul li a h2, #post-8 header::before, .container-main .container-insta h1, .container-main .container-lastproduct__products .product a h2, .container-main .container-lastproduct__title, .container-main .container-category__products .products .product-category a h2, .container-main .container-category__products .products .first a h2, .container-main .container-category__title, .container-main .container__hero-banner__center-notxt, .container-main .container__hero-banner__center-txt, .site-header .container-menu__mobile-open .mobile-menu .current-menu-item a, .site-header .menu-menu-1-container .menu-item a:hover, .site-header .menu-menu-1-container .menu .current-menu-item a {
+.container-contact__form div form p, .container-contact h1, .container-about h1, .woocommerce-customer-details address p, .woocommerce-customer-details h2, .woocommerce-order .woocommerce-order-details table thead tr a, .woocommerce-order .woocommerce-order-details h2, .woocommerce-order ul li strong, #order_review_heading, .woocommerce-additional-fields h3, .woocommerce-billing-fields h3, .woocommerce-checkout main main article div div .checkout_coupon p input, .woocommerce-checkout main main article header h1, .site-account .woocommerce .account-orders-table tbody tr td a, .site-account .woocommerce .account-orders-table thead, .site-account .woocommerce-MyAccount-content .woocommerce-EditAccountForm p, .site-account .woocommerce-MyAccount-content .woocommerce-Addresses .woocommerce-Address header, .site-account .woocommerce-MyAccount-content .woocommerce-customer-details address, .site-account .woocommerce-MyAccount-content .woocommerce-customer-details h2, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr td a, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr th a, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tbody tr td a, .site-account .woocommerce-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details thead, .site-account .woocommerce-MyAccount-content .woocommerce-order-details h2, .site-account .woocommerce-MyAccount-content .container-bottom a, .site-account .woocommerce-MyAccount-content .container-top__logout a, .site-account .woocommerce-MyAccount-content .container-top__hello, .site-account .woocommerce-MyAccount-navigation ul .is-active a, .site-account__header h1, .cart-collaterals .cart_totals .wc-proceed-to-checkout a, .cart-collaterals .cart_totals table tbody tr td, .cart-collaterals .cart_totals h2, .actions .button-maj, .coupon input, .woocommerce-cart-form table tbody tr .product-subtotal span, .woocommerce-cart-form table tbody tr .product-quantity .quantity input, .woocommerce-cart-form table tbody tr .product-price span, .woocommerce-cart-form table thead tr, .woocommerce-cart main main article header h1, .comments-area .comment-respond h3, .single-product .product .woocommerce-tabs .woocommerce-Tabs-panel h2, .single-product .product .summary .product_meta .posted_in a, .single-product .product .summary form .quantity input, .single-product .product .summary .price::before, .page-produit article div h1, .woocommerce-ordering select, #post-0 div div .products .product a h2, #post-0 header, #post-8 .entry-content div ul li a h2, #post-8 header::before, .container-main .container-insta h1, .container-main .container-lastproduct__products .product a h2, .container-main .container-lastproduct__title, .container-main .container-category__products .products .product-category a h2, .container-main .container-category__products .products .first a h2, .container-main .container-category__title, .container-main .container__hero-banner__center-notxt, .container-main .container__hero-banner__center-txt, .site-header .container-menu__mobile-open .mobile-menu .current-menu-item a, .site-header .menu-menu-1-container .menu-item a:hover, .site-header .menu-menu-1-container .menu .current-menu-item a {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
@@ -708,6 +713,152 @@ body {
 }
 .woocommerce-ordering select:focus {
   border: none;
+}
+
+.page-produit {
+  padding: 0 100px;
+}
+.page-produit article header {
+  margin-bottom: 50px;
+}
+.page-produit article header h1 {
+  font-size: 15px;
+}
+.page-produit article header h1 a {
+  color: #000 !important;
+  text-decoration: underline;
+}
+.page-produit article div h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.page-produit article div h1 a {
+  text-decoration: underline;
+  color: #4A5899;
+  text-transform: uppercase;
+}
+
+.single-product .product {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.single-product .product .woocommerce-product-gallery__trigger {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.single-product .product .woocommerce-product-gallery__wrapper {
+  position: relative;
+}
+.single-product .product .woocommerce-product-gallery__wrapper div {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.single-product .product .summary .price {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  color: #4A5899;
+  font-size: 25px;
+}
+.single-product .product .summary .price::before {
+  content: "Prix unitaire :";
+  margin-bottom: 5px;
+}
+.single-product .product .summary form .quantity input {
+  border: 2px solid #4A5899;
+  border-radius: 5px;
+  height: 30px;
+  color: #4A5899;
+  font-size: 15px;
+}
+.single-product .product .summary form .single_add_to_cart_button {
+  background-color: #92374D;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 35px;
+  display: flex;
+}
+.single-product .product .summary form .single_add_to_cart_button:hover {
+  background-color: #fff;
+  color: #92374D;
+  border: 2px solid #92374D;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.single-product .product .summary .product_meta {
+  color: #4A5899;
+}
+.single-product .product .summary .product_meta .posted_in a {
+  color: #4A5899;
+}
+.single-product .product .woocommerce-tabs {
+  width: 100%;
+}
+.single-product .product .woocommerce-tabs .tabs::before {
+  border: 1px solid #4A5899;
+}
+.single-product .product .woocommerce-tabs .tabs .active {
+  border: 2px solid #4A5899 !important;
+  border-bottom-color: #fff !important;
+  color: #4A5899;
+}
+.single-product .product .woocommerce-tabs .tabs li {
+  border: 2px solid #4A5899 !important;
+}
+.single-product .product .woocommerce-tabs .tabs .description_tab {
+  background-color: #4A5899;
+}
+.single-product .product .woocommerce-tabs .tabs .description_tab a {
+  color: #fff;
+}
+.single-product .product .woocommerce-tabs .tabs .additional_information_tab {
+  background-color: #4A5899;
+}
+.single-product .product .woocommerce-tabs .tabs .additional_information_tab a {
+  color: #fff;
+}
+.single-product .product .woocommerce-tabs .woocommerce-Tabs-panel {
+  color: #4A5899;
+}
+.single-product .product .woocommerce-tabs .woocommerce-Tabs-panel h2 {
+  margin-bottom: 10px;
+}
+
+.comments-area .comment-respond {
+  color: #4A5899;
+}
+.comments-area .comment-respond h3 {
+  margin-bottom: 10px;
+}
+.comments-area .comment-respond form {
+  color: #4A5899;
+}
+.comments-area .comment-respond form .logged-in-as {
+  margin-bottom: 20px;
+}
+.comments-area .comment-respond form .comment-form-comment {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 20px;
+}
+.comments-area .comment-respond form .form-submit {
+  margin-bottom: 50px;
+}
+.comments-area .comment-respond form .form-submit .submit {
+  background-color: #4A5899 !important;
+  color: #fff !important;
+  border-radius: 10px;
 }
 
 .woocommerce-cart main main article {
